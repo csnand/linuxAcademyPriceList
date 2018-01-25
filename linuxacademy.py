@@ -41,6 +41,7 @@ class laPrice(object):
         #for this part, you may want to divide the task into few pieces
         #browser.visit int the for loop will consume memory like openning multiple tabs without
         #closing. So memory may br filled up.
+        #1850 990 580 are stil viable
 
             planCounter = count
             

@@ -37,7 +37,10 @@ class laPrice(object):
 
         f = open("laPrice.txt", "a+")
 
-        for count in range(27,1901):
+        for count in range(1,1901):
+        #for this part, you may want to divide the task into few pieces
+        #browser.visit int the for loop will consume memory like openning multiple tabs without
+        #closing. So memory may br filled up.
 
             planCounter = count
             
